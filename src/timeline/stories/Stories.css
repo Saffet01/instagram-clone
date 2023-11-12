@@ -1,0 +1,17 @@
+.stories{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    margin: 75px 10px;
+    height: 7em;
+    overflow-y: scroll;
+}
+
+.stories::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll{
+    margin: 0 30px;
+}

@@ -3,7 +3,9 @@ import './Post.css'
 
 function Post() {
   return (
-    <div className='post'>Post</div>
+    <div className='post'>
+      
+    </div>
   )
 }
 

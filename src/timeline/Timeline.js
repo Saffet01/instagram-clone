@@ -1,8 +1,9 @@
 import React from "react";
 import "./Timeline.css";
 import Suggestions from "./Suggestions.js";
-import Post from "./posts/Post.js";
+import Posts from "./posts/Posts.js";
 import Stories from "./stories/Stories.js";
+
 function Timeline() {
   return (
     <div className="timeline">
@@ -12,7 +13,7 @@ function Timeline() {
         </div>
 
         <div className="timeline__posts">
-          <Post />
+          <Posts />
         </div>
       </div>
 
