@@ -5,6 +5,10 @@
 
 .timeline__left{
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .timeline__right{
@@ -12,6 +16,11 @@
 }
 
 .timeline__stories{
+    width: 100%;
+}
+
+.timeline__posts{
+    width: 60%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
