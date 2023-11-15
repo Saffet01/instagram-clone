@@ -7,7 +7,7 @@ import Comment from "./Comment";
 import users from "../data/users";
 
 function Post(props) {
-  const { storyBorder, image, comments, likedByText, likedByNumber, hours } =
+  const { storyBorder, image, comments, likedByText, hours } =
     props;
 
   let accountName = users[Math.floor(Math.random() * users.length)].username;
@@ -42,10 +42,14 @@ function Post(props) {
       <div className="comments">
         {comments.map((comment) => {
           return (
-            <Comment key={comment.id} />
+            <Comment key={comment.id} accountName={accountName} comment={comment}/>
           )
         })}
       </div>
+
+      <form className="addCommentSection">
+        <input className="addComment" type="text" placeholder="Add a comment..." />
+      </form>
     </div>
   );
 }

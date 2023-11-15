@@ -7,7 +7,7 @@ import SlideshowIcon from "@mui/icons-material/Slideshow";
 import SendIcon from "@mui/icons-material/Send";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import AddBoxIcon from "@mui/icons-material/AddBox";
-import MenuIcon from '@mui/icons-material/Menu';
+import MenuIcon from "@mui/icons-material/Menu";
 import ProfileIcon from "../timeline/profileIcons/ProfileIcon";
 
 function Sidenav() {
@@ -59,14 +59,13 @@ function Sidenav() {
           <ProfileIcon iconSize="small" />
           <span>Profile</span>
         </button>
-
       </div>
-	  <div className="sidenav__more">
-		<button className="sidenav__button">
-			<MenuIcon/>
-			<span>More</span>
-		</button>
-	  </div>
+      <div className="sidenav__more">
+        <button className="sidenav__button">
+          <MenuIcon />
+          <span>More</span>
+        </button>
+      </div>
     </div>
   );
 }

@@ -1,4 +1,7 @@
 .posts{
     width: 100%;
-    border: 1px solid wheat;
+}
+
+.post{
+    margin-bottom: 40px;
 }

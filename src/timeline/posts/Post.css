@@ -1,5 +1,5 @@
 .post{
-    width: 100%;
+    width: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -38,6 +38,8 @@
 
 .postImage{
     border-radius: 6px;
+    width: 100%;
+    height: 100%;
 }
 
 .likedBy{
@@ -48,4 +50,12 @@
 .likedByInfo{
     font-size: 14px;
     margin-left: 8px;
+}
+
+.addComment{
+    width: 400px;
+    height: 30px;
+    background-color: black;
+    border: 0;
+    margin-top: 10px;
 }

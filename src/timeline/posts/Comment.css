@@ -1,0 +1,14 @@
+.commentSection{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-width: 400px;
+}
+
+.accountName{
+    font-size: 14px;
+}
+
+.comment{
+    font-size: 12px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import Post from "./Post";
+import "./Posts.css"
 
 const Posts = () => {
   const commentsOne = [
@@ -38,7 +39,38 @@ const Posts = () => {
 
   return (
     <div className="posts">
-      <Post accountName="rafagrassetti" storyBorder={true} image="https://picsum.photos/400/600" comments={commentsOne} likedByText="dadatlacak" likedByNumber={87} hours={12} />
+      <div className="post">
+        <Post
+          accountName="rafagrassetti"
+          storyBorder={true}
+          image="https://picsum.photos/400/600"
+          comments={commentsOne}
+          likedByText="dadatlacak"
+          hours={12}
+        />
+      </div>
+
+      <div className="post">
+        <Post
+          accountName="rafagrassetti"
+          storyBorder={true}
+          image="https://picsum.photos/400/"
+          comments={commentsTwo}
+          likedByText="Saffet"
+          hours={17}
+        />
+      </div>
+
+      <div className="post">
+        <Post
+          accountName="rafagrassetti"
+          storyBorder={true}
+          image="https://picsum.photos/600"
+          comments={commentsThree}
+          likedByText="İrem"
+          hours={3}
+        />
+      </div>
     </div>
   );
 };
