@@ -1,0 +1,61 @@
+.profile-section{
+    margin-top: 70px;
+    display: flex;
+}
+
+.user-account-name{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.userName{
+    color: gray;
+}
+
+.suggested-header{
+    font-size: 14px;
+    color: gray;
+}
+
+.suggestions-section{
+    margin-top: 40px;
+}
+
+.suggested-user{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.suggested-user-Info{
+    display: flex;
+    align-items: center;
+}
+
+.suggested-user-account{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.suggested-account-name{
+    font-size: 14px;
+}
+.followedBy{
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+}
+.follow-btn{
+    background-color: black;
+    border: 0;
+    color: rgb(106, 106, 251);
+    margin-right: 30px;
+}
+
+.follow-btn:hover{
+    cursor: pointer;
+}

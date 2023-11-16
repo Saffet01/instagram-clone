@@ -4,7 +4,7 @@ import './ProfileIcon.css'
 function ProfileIcon(props) {
 
 
-    const {iconSize, storyBorder, image} = props;
+    const {iconSize, storyBorder, image, userId} = props;
 
     function getRandomInt(min, max){
         min = Math.ceil(min);
